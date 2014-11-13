@@ -107,7 +107,7 @@ body {
 }
 
 .loader{
-	position: absolute;
+	position: fixed;
 	top: 43%;
 	left: 46%;
 	display: none;
@@ -217,7 +217,8 @@ svg path, svg rect{
 	-o-transition:border-color ease .2s;
 	-webkit-transition:border-color ease .2s;
 	transition:border-color ease .2s;
-	top: 25px;
+	top: 15px;
+	right: 5px;
 }
 
 .error::before,.error::after {
